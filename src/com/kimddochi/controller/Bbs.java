@@ -12,10 +12,8 @@ public class Bbs {
 
 	@RequestMapping(value="/{name}", method = RequestMethod.GET)
 	public String home(@PathVariable String name, ModelMap model) {
-
 		model.addAttribute("movie", name);
 		return "home";
-
 	}
 	
 }
