@@ -7,5 +7,7 @@
 </head>
 <body>
 	<h1>Index Page</h1>
+	
+	<h5><a href="./kor/community/bbs/L">bbsList</a></h5>
 </body>
 </html>
