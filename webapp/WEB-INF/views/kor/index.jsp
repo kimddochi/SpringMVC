@@ -29,12 +29,12 @@
         <div class="span4">
           <h2>BBS</h2>
            <p>등록된 게시물이 없습니다.</p>
-          <p><a class="btn" href="/kor/community/bbs/L">View details &raquo;</a></p>
+          <p><a class="btn" href="/kor/bbs/L">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Gallery</h2>
            <p>등록된 게시물이 없습니다. </p>
-          <p><a class="btn" href="javascript:alert('Preparing...);">View details &raquo;</a></p>
+          <p><a class="btn" href="/kor/gallery/L">View details &raquo;</a></p>
        </div>
        <!-- 
         <div class="span4">
