@@ -65,6 +65,13 @@
 			<artifactId>standard</artifactId>
 			<version>1.0.6</version>
 		</dependency>
+		
+		<!-- Inject -->
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
+		</dependency>
 
         <!-- Log -->
         <dependency>
@@ -106,6 +113,18 @@
 			<version>${hsqldb.version}</version>
 		</dependency>
 		
+		<!-- FileUpload -->
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

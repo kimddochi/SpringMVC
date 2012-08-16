@@ -1,20 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
+<%@ include file="./inc/base.jsp" %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8">
     <title>Kimddochi's Story</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-	<%@ include file="../inc/header.jsp" %>
+	<%@ include file="./inc/header.jsp" %>
   </head>
 
   <body>
-  	<%@ include file="../inc/gnb.jsp" %>
+  	<%@ include file="./inc/gnb.jsp" %>
     <div class="container-fluid">
       <div class="row-fluid">
-        <%@ include file="../inc/left.jsp" %>
+        <%@ include file="./inc/left.jsp" %>
         <div class="span9">
           <div class="hero-unit">
             <h1>Hello, world!</h1>
@@ -57,16 +58,7 @@
           </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2012</p>
-      </footer>
-
+      <%@ include file="./inc/footer.jsp" %>
     </div><!--/.fluid-container-->
-
-    <%@ include file="../../inc/jsLoad.jsp" %>
-
   </body>
 </html>

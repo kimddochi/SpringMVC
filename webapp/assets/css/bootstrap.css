@@ -155,12 +155,12 @@ textarea {
           box-sizing: border-box;
 }
 /*
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: monaco, sans-serif;
+  src:url(/assets/font/Monaco_5.1.eot);
 */
 body {
   margin: 0;
-  font-family: monaco, sans-serif;
-  src:url(/assets/font/Monaco_5.1.eot);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -689,6 +689,11 @@ code {
   color: #d14;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
+}
+
+div {
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 pre {
@@ -4853,6 +4858,8 @@ a.badge:hover {
 .carousel .item > img {
   display: block;
   line-height: 1;
+  max-height: 450px;
+  max-width: 990px;
 }
 
 .carousel .active,
