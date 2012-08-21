@@ -1,15 +1,11 @@
 package com.kimddochi.service.impl;
 
-import java.util.UUID;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import utils.GeneratorUUID;
-
 import com.kimddochi.dto.common.FileInfo;
-import com.kimddochi.service.face.FileService;
 import com.kimddochi.service.face.GalleryService;
+import com.kimddochi.service.face.common.FileService;
 
 @Service
 public class GalleryServiceImpl implements GalleryService {
@@ -21,7 +17,6 @@ public class GalleryServiceImpl implements GalleryService {
 	@Override
 	public void save(FileInfo fileInfo) {
 		
-		fileInfo.setIdx(GeneratorUUID.getRandomUUID());
 		fileInfo.setFilePath(path);
 		this.fileService.save(fileInfo);
 		

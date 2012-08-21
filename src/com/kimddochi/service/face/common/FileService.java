@@ -1,4 +1,4 @@
-package com.kimddochi.service.face;
+package com.kimddochi.service.face.common;
 
 import com.kimddochi.dto.common.FileInfo;
 
